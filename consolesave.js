@@ -1,11 +1,8 @@
 (function(console){ 
-let arr= [] // ingles
-let arp= [] // frances
+let arr= [] // anglais
+let arp= [] // français
 let arx= [] 
 let wcl = [] //word clasiffciaciotn
-//let vard = document.querySelectorAll("rocket-record > div > div.tutor-row > div.text-content > div.translation > div > rocket-record-phrase-string > div > span.ng-scope.ng-isolate-scope > p")
-//let phra = document.querySelectorAll("rocket-record > div > div.tutor-row > div.text-content > div.phrases > div > div > rocket-record-phrase-string > div > span.ng-scope.ng-isolate-scope > p")
-
 const lenx = document.querySelectorAll("rocket-record > div > div.tutor-row > div.text-content > div.translation > div > rocket-record-phrase-string > div > span.ng-scope.ng-isolate-scope > p").length
 
 let codearray = []
