@@ -6,7 +6,7 @@ let arx= []
 let wcl = [] //word clasiffication
 const lenx = document.querySelectorAll("span.ws-1 > span").length
 
-//returns the box code of this phrase 
+//returns the box code of a phrase 
 let codearray = []
 for (let i=0; i<lenx;i++)
 {
