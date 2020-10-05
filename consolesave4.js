@@ -21,7 +21,7 @@ let lenx2 = arraycodex.length
 for (let i=0; i<lenx;i++)
 {
         arr.push(document.querySelectorAll("span.ws-1 > span")[i].innerText) // english
-        arp.push(document.querySelectorAll("span.ws-10 > span")[i].innerText) //frances
+        arp.push(document.querySelectorAll("span.ws-10 > span")[i].innerText) //french
         try {
             wcl.push(document.querySelectorAll("span.ws-10 > span")[i].offsetParent.querySelectorAll("span > span.ws-10")[i].nextElementSibling.innerText)
         } catch (err) {
