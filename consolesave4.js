@@ -52,7 +52,5 @@ console.save = function(filename){
     a.click();
  }
 //console.log(arp)
-//console.log(arr)
-
 })(console)
 
