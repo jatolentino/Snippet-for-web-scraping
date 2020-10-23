@@ -4,7 +4,7 @@ let arr= [] // anglais
 let arp= [] // français
 let arx= [] 
 let wcl = [] //word clasiffication
-//const lenx = document.querySelectorAll("rocket-record > div > div.tutor-row > div.text-content > div.translation > div > rocket-record-phrase-string > div > span.ng-scope.ng-isolate-scope > p").length
+
 const lenx = document.querySelectorAll("span.ws-1 > span").length
 
 //returns the box code of this phrase 
