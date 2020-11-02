@@ -20,15 +20,17 @@ let lenx2 = arraycodex.length
 
 for (let i=0; i<lenx;i++)
 {
-        arr.push(document.querySelectorAll("span.ws-1 > span")[i].innerText) // english
-        arp.push(document.querySelectorAll("span.ws-10 > span")[i].innerText) //french
         try {
+            arr.push(document.querySelectorAll("span.ws-1 > span")[i].innerText) // english
+            arp.push(document.querySelectorAll("span.ws-10 > span")[i].innerText) //french
             wcl.push(document.querySelectorAll("span.ws-10 > span")[i].offsetParent.querySelectorAll("span > span.ws-10")[i].nextElementSibling.innerText)
         } catch (err) {
             try{
                 wcl.push(document.querySelectorAll("span.ws-10 > span")[0].offsetParent.querySelectorAll("span > span.ws-10")[i].nextElementSibling.innerText)
             }catch(err){
                 wcl.push(" ")}
+            arr.push(" ")
+            arp.push(" ")        
             }
          }
 
@@ -51,6 +53,6 @@ console.save = function(filename){
     a.download = filename; // name of download file
     a.click();
  }
-//console.log(arp)
 })(console)
+// run with console.save("lesson1")
 
