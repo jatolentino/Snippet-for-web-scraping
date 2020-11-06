@@ -42,8 +42,5 @@ console.save = function(filename){
     a.download = filename; // name of download file
     a.click();
  }
-//console.log(arp)
-
-
 })(console)
 
