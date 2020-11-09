@@ -43,7 +43,7 @@ console.save = function(filename){
     var file = new Blob([arxx.map(function(d){return d}).join("\n") ], { type: 'text/plain' }); //text/plain text/csv;charset=utf-8; iso-8859-1 utf-8
    
     a.href = URL.createObjectURL(file);
-    a.download = filename; // name of download file
+    a.download = filename; // name of file to be downloaded
     a.click();
  }
 })(console)
