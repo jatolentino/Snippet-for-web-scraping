@@ -17,7 +17,6 @@ codearray.push(document.querySelectorAll("span.ws-1 > span")[i].offsetParent)
 let arraycodex = codearray.filter(Boolean)
 let lenx2 = arraycodex.length
 
-
 for (let i=0; i<lenx;i++)
 {
         try {
