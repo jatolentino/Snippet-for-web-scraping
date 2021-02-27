@@ -53,4 +53,3 @@ console.save = function(filename){
  }
 })(console)
 // run with console.save("lesson1")
-
