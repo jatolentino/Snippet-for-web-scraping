@@ -13,7 +13,6 @@ for (let i=0; i<lenx;i++)
 {
 codearray.push(document.querySelectorAll("span.ws-1 > span")[i].offsetParent)
 }
-
 //filter duplicated elements and calculate the length
 let arraycodex = codearray.filter(Boolean)
 let lenx2 = arraycodex.length
