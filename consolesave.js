@@ -34,7 +34,6 @@ let arxx= Array.from(new Set(arx))
 console.save = function(filename){
 
     if(!filename) filename = 'French_lesson'
-
     var a = document.createElement('a');
     var file = new Blob([arxx.map(function(d){return d}).join("\n") ], { type: 'text/plain' }); //text/plain text/csv;charset=utf-8; iso-8859-1 utf-8
    
