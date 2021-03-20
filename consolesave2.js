@@ -29,7 +29,6 @@ for (let i=0; i<lenx;i++)
 for (let i=0; i<lenx;i++){
 JSON.stringify(arx.push(arr[i] + "\t" + wcl[i] + "\t" + arp[i]))//arx.push(vard[i].innerText + "\t" + phra[i].innerText)
 }
-
 //arx.unshift("sep=,") force UTF-8
 let arxx= Array.from(new Set(arx))
 //console.log(arxx)
