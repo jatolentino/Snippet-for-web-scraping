@@ -33,7 +33,6 @@ JSON.stringify(arx.push(arr[i] + "\t" + wcl[i] + "\t" + arp[i]))//arx.push(vard[
 
 //arx.unshift("sep=,") force UTF-8
         
-        
 let arxx= Array.from(new Set(arx))
 //console.log(arxx)
 console.save = function(filename){
